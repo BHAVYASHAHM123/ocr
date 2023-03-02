@@ -1,0 +1,10 @@
+prefix=C:/Users/Bhavya Shah/Desktop/Desktop/ocr/venv/Library
+exec_prefix=C:/Users/Bhavya Shah/Desktop/Desktop/ocr/venv/Library/bin
+libdir=C:/Users/Bhavya Shah/Desktop/Desktop/ocr/venv/Library/lib
+includedir=C:/Users/Bhavya Shah/Desktop/Desktop/ocr/venv/Library/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.5.0
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}
